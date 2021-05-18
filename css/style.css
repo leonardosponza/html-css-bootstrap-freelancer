@@ -1,9 +1,17 @@
-.container{
+.header{
     background-color: midnightblue;
     color: white;
-    height: 50px;
+    padding: 10px 10px ;
     text-align: center;
 }
 .logo{
-    width: 500px;
+    width: 100px;
+}
+.avatar{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: springgreen;
+    color: white;
 }
