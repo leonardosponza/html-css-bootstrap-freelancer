@@ -37,6 +37,8 @@
 .btn{
     border: 1px solid white;
     color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .contact{
     display: flex;
