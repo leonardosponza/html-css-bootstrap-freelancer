@@ -16,7 +16,32 @@
     color: white;
 }
 .col{
-    width: 50px;
     border-radius: 50px;
     margin-top: 20px;
+}
+.m-30{
+    margin: 30px;
+}
+.title{
+    text-align: center;
+}
+.about{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    background-color: springgreen;
+    color: white;
+    margin-top: 50px;
+}
+.btn{
+    border: 1px solid white;
+    color: white;
+}
+.contact{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
