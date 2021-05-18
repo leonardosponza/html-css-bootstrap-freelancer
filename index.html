@@ -10,10 +10,10 @@
 </head>
 <body>
     <header>
-        <div class="container-fluid header">
+        <div class="container header">
             <div class="row">
-              <h5 class="col-md-4">start bootstrap</h5>
-              <div class="col-md-4 offset-md-4">portfolio about contact</div>
+              <h5 class="col-md-6">start bootstrap</h5>
+              <div class="col-md-6">portfolio about contact</div>
             </div>
         </div>
     </header>
@@ -31,67 +31,94 @@
         </div>
         <!-- fine sezione avatar -->
         <!-- inizio sezione immagini -->
-        <div class="row">
-            <h1 class="title m-30">portfolio</h1>
-            <div class="star">
-                <hr>
-                <!-- stella -->
-                <hr>
-            </div>        
-            <img class="col col-sm-12 col-md-6 col-lg-4" src="img/cabin.png" alt="">
-            <img class="col col-sm-12 col-md-6 col-lg-4" src="img/cake.png" alt="">
-            <img class="col col-sm-12 col-md-6 col-lg-4" src="img/circus.png" alt="">
-        </div>
-        <div class="row align-items-center">        
-            <img class="col col-sm-12 col-md-6 col-lg-4" src="img/game.png" alt="">
-            <img class="col col-sm-12 col-md-6 col-lg-4" src="img/safe.png" alt="">
-            <img class="col col-sm-12 col-md-6 col-lg-4" src="img/submarine.png" alt="">
-        </div>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <h1 class="title">portfolio</h1>
+                    <div class="star">
+                        <hr>
+                        <!-- stella -->
+                        <hr>
+                    </div>     
+                </div>
+                <div class="row">
+                    <img class="col-12 col-sm-6 col-lg-4 bordo" src="img/cabin.png" alt="">
+                    <img class="col-12 col-sm-6 col-lg-4 bordo" src="img/cake.png" alt="">
+                    <img class="col-12 col-sm-6 col-lg-4 bordo" src="img/circus.png" alt="">
+                    <img class="col-12 col-sm-6 col-lg-4 bordo" src="img/game.png" alt="">
+                    <img class="col-12 col-sm-6 col-lg-4 bordo" src="img/safe.png" alt="">
+                    <img class="col-12 col-sm-6 col-lg-4 bordo" src="img/submarine.png" alt="">    
+                </div>
+            </div>
+        </section>
         <!-- fine sezione immagini -->
         <!-- inizio sezione about -->
-        <div class="about">
-            <h1>about</h1>
-            <div class="star">
-                <hr>
-                <!-- stella -->
-                <hr>
+        <section class="color-green">
+            <div class="container">
+                <div class="about">
+                    <h1>about</h1>
+                    <div class="star">
+                        <hr>
+                        <!-- stella -->
+                        <hr>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 col-sm-6">
+                          One of two columns
+                        </div>
+                        <div class="col-12 col-sm-6">
+                          One of two columns
+                        </div>
+                      </div>
+                      <button class="btn">download</button>
+                </div>
             </div>
-            <div class="row justify-content-around">
-                <div class="col-4">
-                  One of two columns
-                </div>
-                <div class="col-4">
-                  One of two columns
-                </div>
-              </div>
-              <button class="btn">download</button>
-        </div>
+        </section>
         <!-- fine sezione about -->
         <!-- inizio sezione contact me -->
-        <div class="contact">
-            <h1>contact me</h1>
-            <div class="star">
-                <hr>
-                <!-- stella -->
-                <hr>
+        <section>
+            <div class="container">
+                <div class="contact">
+                    <h1>contact me</h1>
+                    <div class="star">
+                        <hr>
+                        <!-- stella -->
+                        <hr>
+                    </div>
+                    <nav class="nav flex-column">
+                        <a class="nav-link active" aria-current="page" href="#">nome</a>
+                        <hr>
+                        <a class="nav-link" href="#">email adress</a>
+                        <hr>
+                        <a class="nav-link" href="#">phone number</a>
+                        <hr>
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">message</a>
+                      </nav>
+                      <hr>
+                      <button type="button" class="btn btn-success">save</button>
+                      <!-- fine sezione contact me -->
+        
+                </div>               
             </div>
-            <nav class="nav flex-column">
-                <a class="nav-link active" aria-current="page" href="#">nome</a>
-                <hr>
-                <a class="nav-link" href="#">email adress</a>
-                <hr>
-                <a class="nav-link" href="#">phone number</a>
-                <hr>
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">message</a>
-              </nav>
-              <hr>
-              <button type="button" class="btn btn-success">save</button>
-              <!-- fine sezione contact me -->
-
-        </div>
+        </section>
+        
         
     </main>
     <footer>
+        <section class="black text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 text-center">start bootstrap</div>
+                    <div class="col-md-4 text-center">portfolio about contact</div>
+                    <div class="col-md-4 text-center">start bootstrap</div>
+                  </div>
+            </div>
+        </section>
+        <section class="grey text-white">
+            <div class="container">
+                <div class="text-center">ciao</div>
+            </div>
+        </section>
 
     </footer>
 

@@ -1,5 +1,7 @@
-.header{
+header{
     background-color: midnightblue;
+}
+.header{ 
     color: white;
     padding: 10px 10px ;
     text-align: center;
@@ -15,12 +17,9 @@
     background-color: springgreen;
     color: white;
 }
-.col{
+.bordo{
     border-radius: 50px;
     margin-top: 20px;
-}
-.m-30{
-    margin: 30px;
 }
 .title{
     text-align: center;
@@ -30,7 +29,6 @@
     flex-flow: column;
     align-items: center;
     justify-content: center;
-    background-color: springgreen;
     color: white;
     margin-top: 50px;
 }
@@ -46,4 +44,13 @@
     align-items: center;
     justify-content: center;
     margin-top: 50px;
+}
+.color-green{
+    background-color: springgreen;
+}
+.black{
+    background-color: steelblue;
+}
+.grey{
+    background-color: slategray;
 }
