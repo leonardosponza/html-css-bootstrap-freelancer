@@ -49,8 +49,14 @@ header{
     background-color: springgreen;
 }
 .black{
-    background-color: steelblue;
+    background-color: darkslategrey;
 }
 .grey{
     background-color: slategray;
+}
+.star div{
+    border: 1px solid black;
+}
+#green{
+    color: seagreen;
 }
